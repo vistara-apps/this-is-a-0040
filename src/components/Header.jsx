@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from './ui/Button'
-import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { Sparkles, LogOut, User } from 'lucide-react'
 
 export function Header({ onLogin, onSignup }) {

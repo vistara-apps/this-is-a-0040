@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from './ui/Dialog'
 import { Button } from './ui/Button'
 import { Input } from './ui/Input'
 import { useProjects } from '../hooks/useProjects'
-import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth.jsx'
 import { generateLogoPrompts, generateAdCopy, generateContentIdeas } from '../lib/openai'
 import { Loader2 } from 'lucide-react'
 

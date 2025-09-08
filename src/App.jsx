@@ -4,7 +4,7 @@ import { Hero } from './components/Hero'
 import { Dashboard } from './components/Dashboard'
 import { PricingSection } from './components/PricingSection'
 import { AuthModal } from './components/AuthModal'
-import { AuthProvider, useAuth } from './hooks/useAuth'
+import { AuthProvider, useAuth } from './hooks/useAuth.jsx'
 import { Sparkles, Image, FileText, MessageSquare, Lightbulb } from 'lucide-react'
 
 function AppContent() {

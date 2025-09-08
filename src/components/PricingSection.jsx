@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './ui/Button'
 import { Card, CardHeader, CardTitle, CardContent } from './ui/Card'
 import { Check } from 'lucide-react'
-import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth.jsx'
 
 export function PricingSection() {
   const { user, updateSubscription } = useAuth()
